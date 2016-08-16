@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2016, 1:12:01 PM
+    Author     : arpitmodi
+*/
+
+
+.dropbtn {
+	background-color: darkblue;
+	color: white;
+	padding: 25px;
+	font-size: 16px;
+        width: 188.9px;
+	border: none;
+	cursor: pointer;
+        height: 55px;
+       
+}
+.clear{
+	
+clear :both;
+}
+.main{
+margin: 3% 15%;
+background: darkslateblue;
+border-radius: 5px;
+}
+
+.homebtn {
+	background-color: darkblue;
+	color: white;
+	padding: 18px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+        
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+         
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: lightblue;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+        
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+            
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+         
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+
+header{
+    background-color: darkslateblue;
+    height: 170px;
+    width: 98.9%;
+}
+center{
+    left: 25%;
+    top: 10%;
+    
+}
+#bot_tb {
+width: 1014px;
+height: 19px;
+background: url(/Quiz_Generator/images/tb_bot.jpg) right top no-repeat #FFFFFF;
+}
+
+footer{
+       
+	height: 15px;
+	width: 98.9%;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align:left;
+	clear:both;
+	padding: 13px 0px 0px 0px;
+	background-color: darkslateblue;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        position:fixed;
+        bottom:0;
+}
+@media screen and (min-width:481px) {
+	body, .header, .footer, .navigation {
+	width: 100%;
+	}
+	.column {
+	margin: 10px 1.04166667% 0 0;
+	}
+	.navigation ul li {
+	width: 33.333333%; 
+	display:inline;
+	}
+	#left {
+            
+	width: 45%;
+	float: left;
+	}
+	#right {
+	width: 45%;
+	float: right;
+	}
+        
+	
+
+}
+@media screen and (max-width:480px) {
+	body, .header,.footer .navigation {
+	width: 100%;
+	} 
+	.column {
+	margin: 10px 0;
+	border-bottom: 1px dashed #7b96bc; }
+	
+	#left, #right {
+	width:100%;
+	}
+	
+}
